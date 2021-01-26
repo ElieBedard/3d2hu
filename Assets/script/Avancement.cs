@@ -12,7 +12,6 @@ public class Avancement : MonoBehaviour
         posZ = transform.position.z;
     }
 
-    // Update is called once per frame
     void Update()
     {
         zAcc += 0.001f;
