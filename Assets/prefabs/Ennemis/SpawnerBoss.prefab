@@ -106,7 +106,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5621119544163923040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 735681065b2ebee4bbc3b2028b5b1ccf, type: 3}
+  m_Script: {fileID: 11500000, guid: 251a7511c0aa1e447a7d3fcf65476d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posJoueur: {x: 1050, y: 0, z: 0}
+  posJoueur: {x: 1120, y: 0.5, z: 0}

@@ -1121,22 +1121,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1120842665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a81dbba1413b0b49a9f3d2e03510960, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ea9fa8f36efbc14eac3b991634a5844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceZMin: 75
-  distanceZMax: 100
+  distanceZMin: 30
+  distanceZMax: 40
   muret: {fileID: 3830963299512950552, guid: af073420701886c48984f7fef73f296b, type: 3}
-  distanceMuretZ: 5
+  distanceMuretZ: 10
   cylindre: {fileID: 3173558007480256196, guid: 0c8163bed47591248a1e78b0ed76be23, type: 3}
   moulin: {fileID: 7158069809541003898, guid: b1f4b78102620de4ab025172f19d765e, type: 3}
   murbouge: {fileID: 862352762043124309, guid: 8cb0fe88efa9bc749a36a8abfb959958, type: 3}
   spawner: {fileID: 4323760442027553445, guid: 264cb5c4b1ec6744a8ec3d06736d94e2, type: 3}
-  distanceSpawner: 150
+  distanceSpawner: 300
   spawnerBoss: {fileID: 5621119544163923040, guid: 293613e3b70abc540880994d9ccc5f3b, type: 3}
   distanceSpawnerBosss: 1000
   distancex: 70
-  limitgenz: 3000
+  limitgenz: 1000
 --- !u!1 &1142381469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,13 +2288,32 @@ PrefabInstance:
       propertyPath: zAcc
       value: 7
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9190999161323385986, guid: 03855cc7ff5f2e44b9e97063328c13dd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 03855cc7ff5f2e44b9e97063328c13dd, type: 3}
 --- !u!4 &1735226511 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8206892297479115671, guid: 03855cc7ff5f2e44b9e97063328c13dd, type: 3}
   m_PrefabInstance: {fileID: 1735226510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1735226512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3826363962934779798, guid: 03855cc7ff5f2e44b9e97063328c13dd, type: 3}
+  m_PrefabInstance: {fileID: 1735226510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1735226513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735226512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb4af8c999a4cd4cbde8fafaa549d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zAcc: 7
 --- !u!1 &2028377132
 GameObject:
   m_ObjectHideFlags: 0

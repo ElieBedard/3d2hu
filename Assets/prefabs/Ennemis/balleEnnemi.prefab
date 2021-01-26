@@ -51,11 +51,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2314044730411169554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e0545c041382884bbe0bb26f87587c0, type: 3}
+  m_Script: {fileID: 11500000, guid: f42bfc6197611214089c870dbe185438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vitesse: 10
-  r: 5
+  r: 3
 --- !u!23 &5448577798998763372
 MeshRenderer:
   m_ObjectHideFlags: 0

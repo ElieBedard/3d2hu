@@ -154,14 +154,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5484124141533210839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ec36b28b40628e48b83c251e3492309, type: 3}
+  m_Script: {fileID: 11500000, guid: c043c76e3357a1343a374a7bcb32fc6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   joueur: {fileID: 2172479259812663179, guid: 32fb97c29de5d96449a3d98d54a980ce, type: 3}
   emmeteur: {fileID: 876356776271432397}
   balle: {fileID: 1988144174819136837, guid: 3affb8ed56f1e7e4794086440b501c44, type: 3}
   tempsDestruction: 10
-  forceBalle: 1500
+  forceBalle: 1000
   timerBalle: 0.5
   distanceZ: 30
 --- !u!1 &6016413753291770151

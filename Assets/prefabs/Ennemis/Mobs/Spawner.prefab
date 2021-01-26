@@ -51,13 +51,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4323760442027553445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1640c4743d70c8c438def5201da82601, type: 3}
+  m_Script: {fileID: 11500000, guid: c0e605aa65cc7ba4ebf6710c884a2bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   distanceZ: 150
   mob1: {fileID: 8332611997842545540, guid: 2b41061e4dcd903478b6c8901bd8f93d, type: 3}
-  xMinMob1: 0
-  xMaxMob1: 0
+  xMinMob1: 1045
+  xMaxMob1: 1055
 --- !u!23 &5614950559138851287
 MeshRenderer:
   m_ObjectHideFlags: 0

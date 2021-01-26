@@ -92,13 +92,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 862352762043124309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee807e4e6a1ebdc4fb580d60517d9300, type: 3}
+  m_Script: {fileID: 11500000, guid: 6506e35380385a141b41ad54c9390735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   limitGauche: 1040
   limitDroite: 1060
-  vitMurMin: 10
-  vitMurMax: 20
+  vitMurMin: 15
+  vitMurMax: 30
 --- !u!65 &3091331257666990941
 BoxCollider:
   m_ObjectHideFlags: 0

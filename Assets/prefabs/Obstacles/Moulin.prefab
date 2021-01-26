@@ -92,11 +92,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1771561389491179696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32213e9e0d7659d4db152ff126ba97cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fb04b769128dc345bbdc570c8545974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vitMoulinMin: 40
-  vitMoulinMax: 50
+  vitMoulinMin: 50
+  vitMoulinMax: 70
 --- !u!136 &7013342700334021398
 CapsuleCollider:
   m_ObjectHideFlags: 0
